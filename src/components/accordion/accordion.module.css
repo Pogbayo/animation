@@ -1,0 +1,12 @@
+button{
+    font-weight: 700;
+    font-size: 17px;
+    height: 90px;
+}
+.accordionContainer{
+    background-color: gray;
+    color: white;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+}

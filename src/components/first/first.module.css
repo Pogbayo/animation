@@ -1,0 +1,409 @@
+.container{
+    position: relative;
+    height: auto;
+}
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100vw;
+}
+.topLogo{
+    width: 10%;
+}
+nav{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    gap: 20px;
+    list-style-type: none;
+}
+nav>ul>li{
+    text-decoration: none;
+    color:white ;
+}
+.buyDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:20% ;
+}
+.buyNow{
+    height: 70%;
+    background-color: rgb(247, 0, 255);
+    font-weight: 800;
+    width: 70%;
+}
+.navLastDiv{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+ }
+ .navLastDiv>p{
+    margin-right: 4px;
+ }
+ main{
+    width: 100%;
+    display: flex;
+    /* padding: 10px; */
+    padding: 0 10px;
+    height: auto;
+ }
+ .firstDiv{
+    width: 50%;
+ }
+ .join{
+    padding: 0;
+ }
+ .join>small{
+    display: block;
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: 700;
+    margin: 0;
+ }
+ .join>span{
+    color: rgb(238, 60, 184);
+    font-weight: 700;
+    font-size: 40px;
+ }
+ 
+ .firstDiv>h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+ }
+ .imageContainer {
+    position: relative; /* Establishes a positioning context for absolutely positioned children */
+    display: inline-block; /* Ensures the container fits around the image */
+    width: 80%;
+  }
+  
+  .backgroundImage {
+    display: block; /* Ensures no extra space below the image */
+    width: 60%;   /* Adjust as necessary */
+    position: relative;
+    left: 40%;
+  }
+  
+  .overlay {
+    position: absolute; /* Positioning relative to the container */
+    top: 30%;          /* Centers the overlay vertically */
+    left: 35%;         /* Centers the overlay horizontally */
+    transform: translate(-50%, -50%); /* Offsets the overlay to be perfectly centered */
+    color: white;      /* Text color */
+    font-size: 20px;
+    font-weight: 900;
+    width: 70%;
+    text-align: center; /* Center align the text */
+    border-radius: 5px; /* Optional rounded corners */
+  }
+  .overlay>span{
+    color: rgb(228, 165, 176);
+    font-size: 30px;
+  }
+ .fourDivs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 5px;      
+    width :60%;
+ }
+ .fourDivs>div{
+    background-color:rgb(77, 26, 62);
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 75px;       
+    font-weight: 700;
+    border-radius: 10px;   
+    width: 100%;            /* Set a minimum height */
+    box-sizing: border-box; 
+ }
+ /* section{
+    border: 2px solid red;
+ } */
+ .house1Div{
+   width: 90%;
+ }
+ .house1{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+ }
+ .muscleShow{
+    margin: 0;
+    width: 100%;
+    height: 790px;
+ }
+ .secondDiv{
+    width: 50%;
+ }
+ .upperDivInSecondDiv{
+    display: flex;
+    height: 40%;
+    justify-content: flex-end;
+ }
+ .socials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+ }
+ .socials>img{
+    width: 35px;
+ }
+ .board{
+    width: 450px;
+    /* padding-top: 20px; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+ }
+ .whiteboard{
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(221, 135, 149);
+    background-color: white;
+ }
+ .greenLines{
+    height: 17px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+ }
+ .greenLines>div{
+    height: inherit;
+    width: 5px;
+ }
+ .BUY{
+    border-radius: 20px;
+    text-align: center;
+    background-color:#602160;
+    height:470px;
+    padding: 0;
+ }
+ .BUY>p{
+    font-size: 23px;
+    margin: 0;
+    padding-top: 5px;
+    color: white;
+ }
+ .BUY>h3{
+    color: white;
+ }
+ .until{
+    background-color:#43b0f1;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+ }
+ 
+ .countDown{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 0;
+    height: 70px;
+    align-items: center;
+ }
+.countDown>div{
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    flex-direction: column;
+ }
+.p{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.buyButtons{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    height: 26%;
+    /* height: 30%; */
+    gap: 10px;
+}
+.buyButtons>button{
+    width:100%;
+    height: 85%;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 0;
+    background-color:#f5627b ;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.buyButtons>button:hover{
+    background-color:#e49ba7 ;
+
+}
+.BUY>h4{
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+}
+.cloudDiv{
+  border-top: 6px solid rgb(100, 247, 100);
+  border-bottom: 6px solid rgb(108, 241, 108);
+  width: 30%;
+  position: relative;
+  top: 100px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.lowerDivInSecondDiv{
+    padding: 20px;
+}
+.lowerDivInSecondDiv>h1{
+    text-align: end;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+    color: rgb(247, 0, 255);
+    text-transform: uppercase;
+}
+
+.lowerDivInSecondDiv>h1>span{
+    text-align: end;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+.lowerDivInSecondDiv>p{
+   color: white;
+   font-style: italic;
+   font-size: larger;
+}
+.lowerDivInSecondDiv>section{
+    background-color: #602160;
+}
+.brandsDiv{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.brand{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+}
+.brandsDiv>div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+}
+.pointerDiv{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: auto;
+}
+.pointerDiv>img{
+    width: 90px;
+}
+.pointerDiv>button{
+    background-color: rgb(247, 0, 255);
+    padding: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    height: 90%;
+    border-radius: 20px;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+   .container{
+      padding-top: 20px;
+   }
+   header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   nav{
+      display: none;
+   }
+   .overlay{
+      display: none;
+   }
+   .fourDivs{
+      display: none;
+   }
+   .brandsDiv>div,h3{
+      display: none;
+    }
+   
+}
+@media (max-width:599px){
+   .container{
+      height: auto;
+   }
+   header{
+      display: flex;
+      padding: 15px;
+      align-items: center;
+      /* background-color: deeppink; */
+    }
+    nav{
+      display: none;
+    }
+    .topLogo{
+      width: 80px;
+    }
+    .firstDiv{
+      display: none;
+    }
+    .imageContainer>img{
+      display: flex;
+    }
+    .board{
+      margin: 0 auto;
+      width: 80%;
+    }
+    .secondDiv{
+      width: 100%;
+      margin-top: 40px;
+      padding-top: 30px;
+    }
+    .upperDivInSecondDiv{
+      margin: 0 auto;
+    }
+    .socials{
+      width: 10%;
+      display: flex;
+      padding-left: 10px;
+      border: 2px solid (33, 15, 196, 0.664);
+    }
+    .cloudDiv{
+       width: 10%;    }
+    .brandsDiv>div,h3{
+      display: none;
+    }
+    .pointerDiv{
+      margin-bottom: 10px;
+    }
+   }

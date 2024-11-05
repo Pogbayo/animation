@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(180, 178, 219) 0%, rgba(121,9,119,1) 0%, rgba(217,214,218,1) 100%);
+}
+.faq{
+    width: 50%;
+}
+.faq>img{
+    width: 100%;
+    height: 100%;
+}
+.faqContent{
+    width: 50%;
+}
+.faqContent>h1{
+   color: white;
+   font-size: 60px;
+   margin: 0;
+}
+.faqContent>div{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding-left: 20px;
+    gap: 20px;
+    height: auto;
+}
+.faqContent>div>p{
+    border: 2px solid white;
+    height: 65px;
+    display: flex;
+    overflow: hidden;
+    padding: 13px;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+    font-size: 2015x;
+    justify-content: center;
+    background-color: aqua;    border-radius: 20px;
+    width: 80%;
+}
+.faqContent>div>img{
+    border: 2px solid white;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .container{
+        height: 500px;
+        justify-content: space-between;
+    }
+    .faq{
+        width: 40%;
+    }
+    .faqContent{
+        height: 450px;
+        overflow: hidden;
+    }
+}
+@media (max-width:599px){
+    .container{
+        height: 500px;
+        justify-content: space-between;
+    }
+    .faq{
+        width: 40%;
+        align-content: center;
+        height: 100%;
+    }
+    .faq>img{
+        height: 50%;
+    }
+    .faqContent{
+        height: 450px;
+        overflow: hidden;
+    }
+}

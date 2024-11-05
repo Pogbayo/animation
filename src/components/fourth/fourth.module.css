@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 0%, rgba(217,214,218,1) 100%);
+}
+.rainbow{
+    width: 50%;
+}
+.rainbow>img{
+    width: 100%;
+    height: 100%;
+}
+.content {
+    padding: 20px;
+    width: 50%;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  .foodDiv {
+    position: relative;
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .foodDiv>section{
+    border: none;
+    color: white;
+    display: flex;
+    gap: 10px;
+  }
+  .pie {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  /* Position each section around the pie image */
+  .section1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-family: 'Press Start 2P', cursive;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    display: flex;
+
+  }
+  
+  .section2 {
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+
+    top: 25%;
+    left:39% ;
+    transform: translate(20%, -50%);
+    text-align: center;
+    display: flex;
+
+  }
+  
+  .section3 {
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 42%;
+    transform: translate(20%, 50%);
+    text-align: center;
+    display: flex;
+
+  }
+  
+  .section4 {
+    font-family: 'Press Start 2P', cursive;
+
+    position: absolute;
+    display: flex;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, 20%);
+    text-align: center;
+  }
+  
+  .section5 {
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    display: flex;
+    top: 90%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    text-align: center;
+  }
+  
+  .button {
+    display: block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: rgb(247, 182, 182);
+    color: white;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (min-width: 600px) and (max-width: 900px) {
+    .container{
+      flex-direction: column;
+    }
+    .rainbow{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding-top: 40px;
+    }
+    .rainbow>img{
+      width: 70%;
+      height: 60%;
+    }
+    .content{
+      width: 100%;
+      height: 70%;
+      gap: 10px;
+    }
+    .content>h1,p{
+      text-align: center;
+    }
+    .foodDiv{
+      width: 80%;
+      height: 70%;
+    }
+  }
+  @media (max-width: 599px){
+    .container{
+      display: flex;
+    }
+    .rainbow{display: none;}
+    .content{
+      width: 100%;
+    }
+    .section1 {
+      position: absolute;
+      top: 0;
+      left: 60%;
+      font-family: 'Press Start 2P', cursive;
+      transform: translate(-50%, -20%);
+      text-align: center;
+      display: flex;
+  
+    }
+  }
