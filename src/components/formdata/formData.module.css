@@ -1,423 +1,433 @@
 .container {
-    height: 100vh; /* Takes up full view height */
-    display: flex;
-    flex-direction: column;
-    color: var(--bg);
-
-    background-color: rgb(27, 21, 21);
-    margin-top: 30px;
-    align-items: center; /* Centers content horizontally */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-  }
-  .proceed{
-    font-size: 30px;
-    font-weight: 900;
-    color: white;
-  }
-  .NB{
-    letter-spacing: 0.3px;
-    width: 70%;
-    text-align: center;
-    color: white;
-    margin-top: 20px;
-  }
-  .form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start; /* Aligns form contents at the top */
-    padding: 20px; /* Adds padding to the form container */
-    width: 480px;
-    padding-bottom: 40px;
-    height: 500px;
-    overflow-y: scroll; /* Enable vertical scrolling */
-    margin: 50px 20px 0 20px; /* Controls margins */
-    background-color:gray;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  .form::-webkit-scrollbar {
-    display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari) */
-  }
-  
-  /* Hide scrollbar for Firefox */
-  .form {
-    scrollbar-width: none; /* Hides scrollbar in Firefox */
-  }
-  .divPhrase{
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    box-shadow: 0 4px  rgba(0, 0, 0, 0.1); /* Bottom shadow only */
-    width: 100%;
-  }
-  .phrase {
-    margin-bottom: 10px; /* Adds space below the label */
-    color: var(--bg);
-    text-align: left;
-    display: block;
-    font-size: x-large;
-    font-weight: 900;
-  }
-  
-  select {
-    width: 100%; /* Makes the select tag span the form width */
-    padding: 8px; /* Adds padding inside the select tag */
-  }
-  
-  .recoveryPhraseLabel{
-    margin-top: 10px;
-    margin-bottom: 8px;
-    background-color: gray;
-    border: none;
-    color:black;
-  }
-  small{
-    margin-top: 7px;
-    margin-bottom: 10px;
-    color: black;
-  }
-  .activeTab{
-    background-color: rgb(75, 67, 67);
-    color: black;
-    font-weight: 700;
-    height: 50px;
-    font-size: 17px;
-    border:transparent;
-    width: 34%;
-  }
-  .tabs{
-    width: 100% !important;
-    height: 55px;
-    display: flex;
-  }
-  .btn{
-  background-color: var(--bg);
+  height: 100vh; /* Takes up full view height */
+  display: flex;
+  flex-direction: column;
   color: white;
+
+  background-color: rgb(27, 21, 21);
+  margin-top: 30px;
+  align-items: center; /* Centers content horizontally */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.proceed{
+  font-size: 30px;
   font-weight: 700;
-  width: 34%;
+  color: white;
+}
+.NB{
+  letter-spacing: 0.3px;
+  width: 70%;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-weight: 100;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start; /* Aligns form contents at the top */
+  padding: 20px; /* Adds padding to the form container */
+  width: 480px;
+  padding-bottom: 40px;
+  height: 500px;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  margin: 50px 20px 0 20px; /* Controls margins */
+  background-color:gray;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.form::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+/* Hide scrollbar for Firefox */
+.form {
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+.divPhrase{
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px  rgba(0, 0, 0, 0.1); /* Bottom shadow only */
+  width: 100%;
+}
+.phrase {
+  color: var(--bg);
+  text-align: left;
+  display: block;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+select {
+  width: 100%; /* Makes the select tag span the form width */
+  padding: 8px; /* Adds padding inside the select tag */
+}
+
+.recoveryPhraseLabel{
+  margin-top: 10px;
+  margin-bottom: 8px;
+  background-color: gray;
   border: none;
+  color:black;
+}
+small{
+  margin-top: 7px;
+  margin-bottom: 10px;
+  color: black;
+}
+.activeTab{
+  background-color: gray;
+  color: black;
+  font-weight: 700;
+  height: 86px;
+  font-size: 17px;
+  border:transparent;
+  width: 34%;
+}
+.tabs{
+  width: 100% !important;
+  height: 85px;
+  justify-content: center;
+  align-items: center;
+  background-color:gray;
+  display: flex;
+}
+.btn{
+background-color: var(--bg);
+color: white;
+font-weight: 700;
+
+width: 34%;
+border: none;
+}
+
+.key{
+  margin-top: 10px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: black;
+  width:90%;
+  box-shadow: 0 4px  rgba(0, 0, 0, 0.1); /* Bottom shadow only */
+
+}
+.keystore{
+  font-size: x-large;
+  font-weight: 100;
+  margin-top: 10px;
+  display: block; /* Ensure it behaves like a block-level element */
+}
+/* .keystoreLabel{
+  margin-top: 10px;
+  color: black;
+  display: block;
+  margin-bottom: 8px;
+} */
+.password{
+  margin-top: 10px;
+  height: 20%;
+  width: 99%;
+  padding-left: 10px;
+  color: black;
+  font-size: 17px;
+  background-color: white;
+  padding-top: 5px;
+}
+.several{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+}
+.private{
+  margin-top: 10px;
+  height: 80%;
+  width: 100%;
+  color: black;
+  width: 100%;
+}
+.privateKey{
+  font-size: x-large;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black; 
+  display: block; 
+  width: 90%;
+}
+.privateWord{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+}
+.button{
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
+  display: block;
+  background-color: var(--bg);
+  color: aliceblue;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.loadingContainer{
+  border: 2px solid rgb(104, 97, 97);
+  height: 300px;
+  width: 400px;
+  left: 40px;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: black;
+  border-radius:20px ;
+}
+.loadingSpinner {
+  border: 16px solid #f3f3f3; /* Light gray */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: 50px auto; /* Centers the spinner */
+}
+.kindly{
+  margin-bottom: 20px; /* Adds space below the label */
+  color: var(--bg);
+  text-align: left;
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+}
+.error{
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+.loadingText{
+  text-align: center; 
+  color: white;
+  font-size: 20px;
+}
+.ensure{
+  display: block;
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 14px;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.confirmationDiv{
+  height: 300px;
+  width: 400px;
+  left: 40px;
+  top: 30%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color:rgb(241, 234, 234);
+}
+.successful{
+  text-align: center;
+  color: black;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  width: 100%;
+  margin-left: 10px;
+}
+.returnHome{
+  margin-top: 10px;
+  height: 40px;
+  width: 150px;
+  display: block;
+  background-color: gar;
+  color: black;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 10px;
+  border-bottom-color: #f3f3f3;
+
+}
+.tryAnotherWallet:hover{
+  cursor: pointer;
+  background-color: var(--bg);
+}
+
+.fav {
+  width: 100%;
+  margin-bottom: 20px; /* Space below the icon */
+}
+.recText{
+  padding-top: 5px;
+  margin: 0 auto;
+  height: 70%;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+}
+.keyTextArea{
+  padding-left: 10px;
+  width: 90%;
+  height: 60%;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+
+}
+.privText{
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 90%;
+  color: black;
+  font-size: 20px;
+  height: 70%;
+  background-color: white;
+
+}
+.threeBody {
+  --uib-size: 35px;
+  --uib-speed: 0.8s;
+  --uib-color: #5D3FD3;
+  position: relative;
+  height: var(--uib-size);
+  width: var(--uib-size);
+  animation: spin78236 calc(var(--uib-speed) * 2.5) infinite linear;
+ }
+ 
+ .threeBodyDot {
+  position: absolute;
+  height: 100%;
+  width: 30%;
+ }
+ 
+ .threeBodyDot:after {
+  content: '';
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: var(--uib-color);
+  border-radius: 50%;
+ }
+ 
+ .threeBodyDot:nth-child(1) {
+  bottom: 5%;
+  left: 0;
+  transform: rotate(60deg);
+  transform-origin: 50% 85%;
+ }
+ 
+ .threeBodyDot:nth-child(1)::after {
+  bottom: 0;
+  left: 0;
+  animation: wobble1 var(--uib-speed) infinite ease-in-out;
+  animation-delay: calc(var(--uib-speed) * -0.3);
+ }
+ 
+ .threeBodyDot:nth-child(2) {
+  bottom: 5%;
+  right: 0;
+  transform: rotate(-60deg);
+  transform-origin: 50% 85%;
+ }
+ 
+ .threeBodyDot:nth-child(2)::after {
+  bottom: 0;
+  left: 0;
+  animation: wobble1 var(--uib-speed) infinite
+     calc(var(--uib-speed) * -0.15) ease-in-out;
+ }
+ 
+ .threeBodyDot:nth-child(3) {
+  bottom: -5%;
+  left: 0;
+  transform: translateX(116.666%);
+ }
+ 
+ .threeBodyDot:nth-child(3)::after {
+  top: 0;
+  left: 0;
+  animation: wobble2 var(--uib-speed) infinite ease-in-out;
+ }
+ 
+ @keyframes spin78236 {
+  0% {
+   transform: rotate(0deg);
   }
-  
-  .key{
-    margin-top: 10px;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    color: black;
-    width:90%;
-    box-shadow: 0 4px  rgba(0, 0, 0, 0.1); /* Bottom shadow only */
-  
+ 
+  100% {
+   transform: rotate(360deg);
   }
-  .keystore{
-    font-size: x-large;
-    font-weight: 100;
-    margin-top: 10px;
-    margin-bottom: 10px; /* Adds space below the label */
-    display: block; /* Ensure it behaves like a block-level element */
+ }
+ 
+ @keyframes wobble1 {
+  0%,
+   100% {
+   transform: translateY(0%) scale(1);
+   opacity: 1;
   }
-  /* .keystoreLabel{
-    margin-top: 10px;
-    color: black;
-    display: block;
-    margin-bottom: 8px;
-  } */
-  .password{
-    margin-top: 10px;
-    height: 20%;
-    width: 99%;
-    padding-left: 10px;
-    color: black;
-    font-size: 17px;
-    background-color: white;
-    padding-top: 5px;
+ 
+  50% {
+   transform: translateY(-66%) scale(0.65);
+   opacity: 0.8;
   }
-  .several{
-    margin-top: 15px;
-    margin-bottom: 10px;
-    display: block;
+ }
+ 
+ @keyframes wobble2 {
+  0%,
+   100% {
+   transform: translateY(0%) scale(1);
+   opacity: 1;
   }
-  .private{
-    margin-top: 10px;
-    height: 80%;
-    width: 100%;
-    color: black;
-  
+ 
+  50% {
+   transform: translateY(66%) scale(0.65);
+   opacity: 0.8;
   }
-  .privateKey{
-    font-size: x-large;
-    font-weight: 900;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: black; 
-    display: block; 
-  }
-  .privateWord{
-    margin-top: 15px;
-    margin-bottom: 10px;
-    display: block;
-  }
-  .button{
-    margin-top: 10px;
-    height: 50px;
-    width: 150px;
-    display: block;
-    background-color: var(--bg);
-    color: aliceblue;
-    font-size: 13px;
-    font-weight: 700;
-    border-radius: 10px;
+ }
+ 
+
+@media screen and (max-width:586px){
+  .form{
+    width: 80%;
+    overflow-x: hidden;
   }
   .loadingContainer{
-    border: 2px solid rgb(104, 97, 97);
-    height: 300px;
-    width: 400px;
-    left: 40px;
-    top: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: black;
-    border-radius:20px ;
-  }
-  .loadingSpinner {
-    border: 16px solid #f3f3f3; /* Light gray */
-    border-top: 16px solid #3498db; /* Blue */
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
-    margin: 50px auto; /* Centers the spinner */
-  }
-  .kindly{
-    margin-bottom: 20px; /* Adds space below the label */
-    color: var(--bg);
-    text-align: left;
-    display: block;
-    font-size: 17px;
-    font-weight: 700;
-  }
-  .error{
-    color: red;
-    font-size: 12px;
-    margin-top: 5px;
-    margin-bottom: 6px;
-  }
-  .loadingText{
-    text-align: center; 
-    color: white;
-    font-size: 20px;
-  }
-  .ensure{
-    display: block;
-    margin-top: 20px;
-    font-weight: 100;
-    font-size: 14px;
-  }
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    margin-right: 20px;
+    position: relative ;
+    width: 70%;
+    left: 0;
   }
   .confirmationDiv{
-    height: 300px;
-    width: 400px;
-    left: 40px;
-    top: 30%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
+    margin-right: 20px;
+    position: relative ;
+    width: 80%;
+    left: 0; 
+  }
+  .tryAnotherWallet{
+    width: 170px;
+    height: auto;
     padding: 10px;
-    text-align: center;
-    background-color:rgb(241, 234, 234);
   }
-  .successful{
-    text-align: center;
-    color: black;
-    margin: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    word-spacing: 1px;
-    letter-spacing: 1px;
-    line-height: 1.3;
-    width: 100%;
-    margin-left: 10px;
-  }
-  .returnHome{
-    margin-top: 10px;
-    height: 40px;
-    width: 150px;
-    display: block;
-    background-color: gar;
-    color: black;
-    font-size: 13px;
-    font-weight: 700;
-    border-radius: 10px;
-    border-bottom-color: #f3f3f3;
-  
-  }
-  .returnHome:hover{
-    cursor: pointer;
-  }
-
-  .fav {
-    width: 100%;
-    margin-bottom: 20px; /* Space below the icon */
-  }
-  .recText{
-    padding-left: 10px;
-    padding-top: 5px;
-    height: 70%;
-    width: 100%;
-    color: black;
-    font-size: 20px;
-    background-color: white;
-  }
-  .keyTextArea{
-    padding-left: 10px;
-    padding-top: 5px;
-    width: 90%;
-    height: 60%;
-    color: black;
-    font-size: 20px;
-    background-color: white;
-
-  }
-  .privText{
-    padding-left: 10px;
-    padding-top: 5px;
-    width: 90%;
-    color: black;
-    font-size: 20px;
-    height: 70%;
-    background-color: white;
-
-  }
-  .threeBody {
-    --uib-size: 35px;
-    --uib-speed: 0.8s;
-    --uib-color: #5D3FD3;
-    position: relative;
-    height: var(--uib-size);
-    width: var(--uib-size);
-    animation: spin78236 calc(var(--uib-speed) * 2.5) infinite linear;
-   }
-   
-   .threeBodyDot {
-    position: absolute;
-    height: 100%;
-    width: 30%;
-   }
-   
-   .threeBodyDot:after {
-    content: '';
-    position: absolute;
-    height: 0%;
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: var(--uib-color);
-    border-radius: 50%;
-   }
-   
-   .threeBodyDot:nth-child(1) {
-    bottom: 5%;
-    left: 0;
-    transform: rotate(60deg);
-    transform-origin: 50% 85%;
-   }
-   
-   .threeBodyDot:nth-child(1)::after {
-    bottom: 0;
-    left: 0;
-    animation: wobble1 var(--uib-speed) infinite ease-in-out;
-    animation-delay: calc(var(--uib-speed) * -0.3);
-   }
-   
-   .threeBodyDot:nth-child(2) {
-    bottom: 5%;
-    right: 0;
-    transform: rotate(-60deg);
-    transform-origin: 50% 85%;
-   }
-   
-   .threeBodyDot:nth-child(2)::after {
-    bottom: 0;
-    left: 0;
-    animation: wobble1 var(--uib-speed) infinite
-       calc(var(--uib-speed) * -0.15) ease-in-out;
-   }
-   
-   .threeBodyDot:nth-child(3) {
-    bottom: -5%;
-    left: 0;
-    transform: translateX(116.666%);
-   }
-   
-   .threeBodyDot:nth-child(3)::after {
-    top: 0;
-    left: 0;
-    animation: wobble2 var(--uib-speed) infinite ease-in-out;
-   }
-   
-   @keyframes spin78236 {
-    0% {
-     transform: rotate(0deg);
-    }
-   
-    100% {
-     transform: rotate(360deg);
-    }
-   }
-   
-   @keyframes wobble1 {
-    0%,
-     100% {
-     transform: translateY(0%) scale(1);
-     opacity: 1;
-    }
-   
-    50% {
-     transform: translateY(-66%) scale(0.65);
-     opacity: 0.8;
-    }
-   }
-   
-   @keyframes wobble2 {
-    0%,
-     100% {
-     transform: translateY(0%) scale(1);
-     opacity: 1;
-    }
-   
-    50% {
-     transform: translateY(66%) scale(0.65);
-     opacity: 0.8;
-    }
-   }
-   
-  
-  @media screen and (max-width:586px){
-    .form{
-      width: 80%;
-      overflow-x: hidden;
-    }
-    .loadingContainer{
-      margin-right: 20px;
-      position: relative ;
-      width: 70%;
-      left: 0;
-    }
-    .confirmationDiv{
-     position: relative ;
-     left: 0;
-     padding: 15px;
-    }
-  }
+}

@@ -166,10 +166,11 @@ nav>ul>li{
  }
  .board{
     width: 450px;
-    /* padding-top: 20px; */
-    /* display: flex;
+    padding-top: 20px; 
+    display: flex;
     flex-direction: column;
-    gap: 20px; */
+    /* gap: 20px;  */
+
  }
  .whiteboard{
     text-align: center;
@@ -190,6 +191,7 @@ nav>ul>li{
     justify-content: space-around;
  }
  .greenLines>div{
+   background-color: greenyellow;
     height: inherit;
     width: 5px;
  }
@@ -199,6 +201,9 @@ nav>ul>li{
     background-color:#602160;
     height:470px;
     padding: 0;
+    margin: 10px;
+    border: 5px solid white;
+
  }
  .BUY>p{
     font-size: 23px;
@@ -220,9 +225,11 @@ nav>ul>li{
  .countDown{
     display: flex;
     justify-content: space-around;
+    border: 3px solid white;
     border-radius: 10px;    margin: 0 auto;
     width: 80%;
     margin-bottom: 0;
+    color: white;
     height: 70px;
     align-items: center;
  }
@@ -252,7 +259,7 @@ nav>ul>li{
     border-radius: 10px;
     padding: 6px;
     margin: 0;
-    background-color:#f5627b ;
+    background-color:deeppink ;
     font-family: 'Press Start 2P', cursive;
 
 }
@@ -361,12 +368,27 @@ nav>ul>li{
 @media (max-width:599px){
    .container{
       height: auto;
+      padding-bottom: 10px;
    }
    header{
       display: flex;
       padding: 15px;
       align-items: center;
       /* background-color: deeppink; */
+    }
+    .lowerDivInSecondDiv{
+      text-align: center;
+      margin: 0 auto;
+    }
+    .house2{
+      display: none;
+      width: 0;
+    }
+    .sec{
+      margin-right: 20px;
+    }
+    .buyButtons>button{
+      font-size: 12px;
     }
     nav{
       display: none;
@@ -382,21 +404,35 @@ nav>ul>li{
     }
     .board{
       margin: 0 auto;
-      width: 80%;
+      width: 90%;
+    }
+    .whiteboard{
+      height: 60px;
+      border-radius: 17px;
+    }
+    .cloudDiv{
+      display: none;
     }
     .secondDiv{
       width: 100%;
-      margin-top: 40px;
-      padding-top: 30px;
+      margin-top: 20px;
+      padding-top: 10px;
+    }
+    .BUY{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      border-right: 16px solid rgb(37, 21, 21);
     }
     .upperDivInSecondDiv{
       margin: 0 auto;
     }
     .socials{
-      width: 10%;
+      /* width: 10%;
       display: flex;
       padding-left: 10px;
-      border: 2px solid (33, 15, 196, 0.664);
+      border: 2px solid (33, 15, 196, 0.664); */
+      display: none;
     }
     .cloudDiv{
        width: 10%;    }

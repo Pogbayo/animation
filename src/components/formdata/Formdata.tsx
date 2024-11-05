@@ -95,7 +95,10 @@ const Formdata = () => {
             <MdError size={70} color="red" className={styles.fav} />
             Error in synchronizing wallet, try another wallet
           </p>
-          <button className={styles.returnHome} onClick={handleClickButton}>
+          <button
+            className={styles.tryAnotherWallet}
+            onClick={handleClickButton}
+          >
             Try another wallet{" "}
           </button>
         </div>

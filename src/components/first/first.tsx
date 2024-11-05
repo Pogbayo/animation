@@ -160,7 +160,7 @@ export const First = () => {
                   </div>
                   <div>
                     <span>{formattedHours}</span>
-                    <p className={styles.p}>Hrs</p>
+                    <p className={styles.p}>Hours</p>
                   </div>
                   <div>
                     <span>{formattedMinutes}</span>
@@ -176,10 +176,9 @@ export const First = () => {
                 <h3>1 $STARS = $0.0015432</h3>
                 <div className={styles.buyButtons}>
                   <button onClick={() => navigate("/coin")}>
-                    CLAIM STARS{" "}
+                    $CLAIM STARS
                   </button>
                   <button onClick={() => navigate("/coin")}>
-                    {" "}
                     BUY WITH CRYPTO
                   </button>
                 </div>
@@ -205,7 +204,10 @@ export const First = () => {
               The MemeVault is a novel innovation that will change the way the
               world interacts with meme coins on the blockchain.
             </p>
-            <section style={{ backgroundColor: "#43b0f1" }}>
+            <section
+              style={{ backgroundColor: "#43b0f1" }}
+              className={styles.sec}
+            >
               <Accordion items={accordionData} />
             </section>
             <main className={styles.brandsDiv}>
