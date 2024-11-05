@@ -1,6 +1,7 @@
 .container{
     position: relative;
     height: auto;
+    overflow: hidden;
 }
 header{
     display: flex;
@@ -259,6 +260,7 @@ nav>ul>li{
     border-radius: 10px;
     padding: 6px;
     margin: 0;
+    color: white;
     background-color:deeppink ;
     font-family: 'Press Start 2P', cursive;
 
@@ -405,6 +407,7 @@ nav>ul>li{
     .board{
       margin: 0 auto;
       width: 90%;
+      margin-right: 20px;
     }
     .whiteboard{
       height: 60px;

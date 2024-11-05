@@ -142,8 +142,9 @@
     border-radius: 10px;
     padding: 25px;
     margin: 0;
+    color: white;
     border-end-start-radius: 2px solid white;
-    background-color:#f5627b ;
+    background-color:deeppink ;
     font-family: 'Press Start 2P', cursive;
   }
 
@@ -153,8 +154,6 @@
       padding-right: 10px;
       margin-bottom: 20px;
       padding-bottom: 10px;
-    
-
     }
     .darkHouse{
        width: 40%;
@@ -173,8 +172,6 @@
     .container{
       padding-left: 10px;
       padding-right: 10px;
-      margin-bottom: 20px;
-      padding: 10px;
     }
     .darkHouse{
       display: none;
@@ -185,13 +182,7 @@
       width: 100%;
       height: auto;
     }
-    /* .videoBox{
-      padding: 20px;
-      gap: 20px;
-      width: 90%;
-      border: 2px solid red;
-      overflow: hidden;
-    } */
+    
 
     .videoWrapper{
       width: 120px;

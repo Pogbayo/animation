@@ -5,7 +5,8 @@
   color: white;
 
   background-color: rgb(27, 21, 21);
-  margin-top: 30px;
+  /* margin-top: 30px; */
+  padding-top: 20px;
   align-items: center; /* Centers content horizontally */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -279,9 +280,8 @@ border: none;
 }
 .recText{
   padding-top: 5px;
-  margin: 0 auto;
   height: 70%;
-  width: 100%;
+  width: 90%;
   color: black;
   font-size: 20px;
   background-color: white;
@@ -422,7 +422,7 @@ border: none;
   .confirmationDiv{
     margin-right: 20px;
     position: relative ;
-    width: 80%;
+    width: 70%;
     left: 0; 
   }
   .tryAnotherWallet{

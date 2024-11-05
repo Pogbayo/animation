@@ -16,7 +16,9 @@
 .faqContent>h1{
    color: white;
    font-size: 60px;
-   margin: 0;
+   margin: 0 ;
+   float: right;
+   padding-right: 30px;
 }
 .faqContent>div{
     display: flex;
@@ -40,9 +42,9 @@
     background-color: aqua;    border-radius: 20px;
     width: 80%;
 }
-.faqContent>div>img{
+/* .faqContent>div>img{
     border: 2px solid white;
-}
+} */
 @media (min-width: 600px) and (max-width: 900px) {
     .container{
         height: 500px;
