@@ -1,6 +1,6 @@
 import { TfiWorld } from "react-icons/tfi";
 
-import styles from "./FOoter.module.css";
+import styles from "./Footer.module.css";
 export const Footer = () => {
   return (
     <div className={styles.container}>
