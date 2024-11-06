@@ -145,7 +145,7 @@ export const First = () => {
           </section>
         </div>
         <img
-          src="/public/media/houses/house-mob.gif"
+          src="/media/houses/house-mob.gif"
           className={styles.houseMobile}
           alt=""
         />
