@@ -168,7 +168,7 @@ export const First = () => {
                 <div></div>
               </div>
               <div className={styles.BUY}>
-                <p>BUY $STARS In PRESALE!</p>
+                <p>BUY $STARS IN PRESALE!</p>
                 <div className={styles.countDown}>
                   <div>
                     <span>00</span>
