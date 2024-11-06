@@ -3,6 +3,7 @@ import { TfiWorld } from "react-icons/tfi";
 import Accordion from "../accordion/accordion";
 // import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export const First = () => {
   const navigate = useNavigate();
@@ -94,8 +95,13 @@ export const First = () => {
             </div>
           </div>
         </nav>
+        <GiHamburgerMenu
+          className={styles.hamburger}
+          size={40}
+          color="deeppink"
+        />
       </header>
-      <main>
+      <main className={styles.main}>
         <div className={styles.firstDiv}>
           <div className={styles.join}>
             <small>JOIN THE FIRST EVER</small>
@@ -107,6 +113,11 @@ export const First = () => {
               src="/media/houses/cloud_1.png"
               alt=""
               className={styles.backgroundImage}
+            />
+            <img
+              src="/public/media/houses/house-mob.gif"
+              className={styles.houseMobile}
+              alt=""
             />
             <h3 className={styles.overlay}>
               BUY AND STAKE $STARS IN PRESALE <br /> TO EARN{" "}
@@ -133,6 +144,11 @@ export const First = () => {
             />
           </section>
         </div>
+        <img
+          src="/public/media/houses/house-mob.gif"
+          className={styles.houseMobile}
+          alt=""
+        />
         <div className={styles.secondDiv}>
           <div className={styles.upperDivInSecondDiv}>
             <div className={styles.socials}>

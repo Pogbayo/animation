@@ -283,6 +283,7 @@ nav>ul>li{
     border-radius: 10px;
     padding: 6px;
     margin: 0;
+    border: 2px solid white;
     color: white;
     background-color:deeppink ;
     font-family: 'Press Start 2P', cursive;
@@ -367,14 +368,28 @@ nav>ul>li{
     height: 90%;
     border-radius: 20px;
 }
+.houseMobile{
+   display: none;
+ }
+ .hamburger{
+   display: none;
+ }
 @media (min-width: 600px) and (max-width: 900px) {
    .container{
       padding-top: 20px;
-   }
+   } .hamburger{
+      display: none;
+    }
+    .houseMobile{
+      display: none;
+    }
    header{
      display: flex;
      justify-content: center;
      align-items: center;
+   }
+   .socials{
+      display: none;
    }
    .join>span{
       display: none;
@@ -382,8 +397,29 @@ nav>ul>li{
    .join{
       padding-left: 0;
    }
+   .secondDiv{
+      padding-top: 20px;
+      margin-right: 20px;
+   }
+   .countDown{
+      width: auto;
+      gap: 10px;
+   }
+   .cloudDiv{
+      display: none;
+   }
    .imageContainer{
       display: none;
+   }
+   .board{
+      width: 100%;
+   }
+   .BUY{
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
    }
    nav{
       display: none;
@@ -408,7 +444,14 @@ nav>ul>li{
       display: flex;
       padding: 15px;
       align-items: center;
+      width: 94%;
+      justify-content: space-between;
       /* background-color: deeppink; */
+    }
+   
+    .main{
+      display: flex;
+      flex-direction: column;
     }
     .lowerDivInSecondDiv{
       text-align: center;
@@ -427,18 +470,34 @@ nav>ul>li{
     nav{
       display: none;
     }
+    .hamburger{
+      display: block;
+    }
+    .houseMobile{
+      display: block;
+      height: 150px;
+      width: 250px;
+    }
     .topLogo{
       width: 80px;
     }
     .firstDiv{
       display: none;
     }
+     /* .join{
+      display: none;
+     }.fourDivs{
+      display: none;
+     }
+     .backgroundImage{
+      display: none;
+     } */
     .imageContainer>img{
       display: flex;
     }
     .board{
       margin: 0 auto;
-      width: 90%;
+      width: 96%;
       margin-right: 20px;
     }
     .whiteboard{
@@ -456,7 +515,7 @@ nav>ul>li{
     .BUY{
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 25px;
       border-right: 16px solid rgb(37, 21, 21);
     }
     .upperDivInSecondDiv{

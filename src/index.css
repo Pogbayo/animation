@@ -13,7 +13,8 @@ body{
   overflow-x: hidden;
 }
 .container{
-  background-color: #43b0f1;
+  /* background-color: #43b0f1; */
+  background-color: rgb(70, 70, 202);
   background-size: cover;
   background-position: cover;
   background-repeat: no-repeat;
