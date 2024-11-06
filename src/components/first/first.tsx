@@ -1,7 +1,7 @@
 import styles from "./first.module.css";
 import { TfiWorld } from "react-icons/tfi";
 import Accordion from "../accordion/accordion";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const First = () => {
@@ -29,24 +29,24 @@ export const First = () => {
     },
   ];
 
-  const initialCountdown = 00 * 00 * 00 + 00 * 0; // Total seconds
-  const savedCountdown = localStorage.getItem("countdownDuration");
-  const [countdownDuration, setCountdownDuration] = useState(
-    savedCountdown ? parseInt(savedCountdown) : initialCountdown
-  );
+  // const initialCountdown = 00 * 00 * 00 + 00 * 0; // Total seconds
+  // const savedCountdown = localStorage.getItem("countdownDuration");
+  // const [countdownDuration, setCountdownDuration] = useState(
+  //   savedCountdown ? parseInt(savedCountdown) : initialCountdown
+  // );
 
-  useEffect(() => {
-    // Update localStorage whenever countdownDuration changes
-    localStorage.setItem("countdownDuration", String(countdownDuration));
+  // useEffect(() => {
+  //   // Update localStorage whenever countdownDuration changes
+  //   localStorage.setItem("countdownDuration", String(countdownDuration));
 
-    if (countdownDuration > 0) {
-      const timerInterval = setInterval(() => {
-        setCountdownDuration((prev) => prev - 1);
-      }, 1000);
+  //   if (countdownDuration > 0) {
+  //     const timerInterval = setInterval(() => {
+  //       setCountdownDuration((prev) => prev - 1);
+  //     }, 1000);
 
-      return () => clearInterval(timerInterval);
-    }
-  }, [countdownDuration]);
+  //     return () => clearInterval(timerInterval);
+  //   }
+  // }, [countdownDuration]);
 
   // Function to add leading zeros
   // const formatTime = (time: number) => String(time).padStart(2, "0");
