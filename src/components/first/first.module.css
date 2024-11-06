@@ -10,6 +10,10 @@ header{
     padding-left: 10px;
     padding-right: 10px;
     width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Optional: ensures it’s above other elements */
+
 }
 .topLogo{
     width: 10%;
@@ -349,11 +353,17 @@ nav>ul>li{
     display: flex;
     flex-direction: column;
     color: white;
+    height: auto;
+    padding-top: 10px;
 }
-.brand{
+/* .brand{
     width: 120px;
     height: 50px;
     text-align: center;
+} */
+.brandsDiv>div>img{
+   width: 80px;
+   height: 50px;
 }
 .brandsDiv>div{
     display: grid;

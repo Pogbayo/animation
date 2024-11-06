@@ -221,7 +221,7 @@ export const First = () => {
               world interacts with meme coins on the blockchain.
             </p>
             <section
-              style={{ backgroundColor: "#43b0f1" }}
+              style={{ backgroundColor: "#318CE5" }}
               className={styles.sec}
             >
               <Accordion items={accordionData} />
@@ -229,13 +229,10 @@ export const First = () => {
             <main className={styles.brandsDiv}>
               <h3>FEATURED IN</h3>
               <div>
-                <img
-                  src="/media/brands/coinmarketcap.svg"
-                  alt="coinmarketcap"
-                />
-                <img src="/media/brands/coingecko.svg" alt="coingecko" />
-                <img src="/media/brands/kucoin.svg" alt="kucoin" />
-                <img src="/media/brands/binance.svg" alt="binance" />
+                <img src="/media/brands/bitcoin.png" alt="coinmarketcap" />
+                <img src="/public/media/brands/coingape.png" alt="coingecko" />
+                <img src="/public/media/brands/crypto-news.svg" alt="kucoin" />
+                <img src="/public/media/brands/tap-bitcoin.png" alt="binance" />
               </div>
             </main>
           </div>
