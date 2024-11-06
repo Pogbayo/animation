@@ -60,9 +60,11 @@ nav>ul>li{
  }
  .firstDiv{
     width: 50%;
+    gap: 0;
  }
  .join{
-    padding: 0;
+    padding-left: 60px;
+     
  }
  .join>small{
     display: block;
@@ -71,12 +73,28 @@ nav>ul>li{
     font-weight: 700;
     margin: 0;
  }
- .join>span{
-    color: rgb(238, 60, 184);
+ /* .join>span{
+    color: deeppink;
     font-weight: 700;
     font-size: 40px;
- }
+ } */
  
+ .join > span {
+   color: deeppink;
+   font-weight: 700;
+   font-size: 65px;
+   text-shadow: 
+       2px 2px 0 white,   /* Right shadow */
+      -2px 2px 0 white,   /* Left shadow */
+       2px -2px 0 white,  /* Bottom shadow */
+      -2px -2px 0 white,  /* Top shadow */
+       2px 0 0 white,     /* Horizontal right */
+      -2px 0 0 white,     /* Horizontal left */
+       0 2px 0 white,     /* Vertical bottom */
+       0 -2px 0 white;    /* Vertical top */
+}
+
+
  .firstDiv>h3{
     font-size: 30px;
     font-weight: 700;
@@ -87,6 +105,8 @@ nav>ul>li{
     position: relative; /* Establishes a positioning context for absolutely positioned children */
     display: inline-block; /* Ensures the container fits around the image */
     width: 80%;
+    padding-left: 100px;
+
   }
   
   .backgroundImage {
@@ -117,6 +137,8 @@ nav>ul>li{
     grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
     gap: 5px;      
     width :60%;
+    padding-left: 60px;
+
  }
  .fourDivs>div{
     background-color:rgb(77, 26, 62);
@@ -352,6 +374,15 @@ nav>ul>li{
      display: flex;
      justify-content: center;
      align-items: center;
+   }
+   .join>span{
+      display: none;
+   }
+   .join{
+      padding-left: 0;
+   }
+   .imageContainer{
+      display: none;
    }
    nav{
       display: none;
