@@ -239,6 +239,7 @@ nav>ul>li{
  }
  .until{
     background-color:#43b0f1;
+    border:2px solid white;
     width: 70%;
     margin: 0 auto;
     color: white;

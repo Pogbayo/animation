@@ -49,25 +49,25 @@ export const First = () => {
   }, [countdownDuration]);
 
   // Function to add leading zeros
-  const formatTime = (time: number) => String(time).padStart(2, "0");
+  // const formatTime = (time: number) => String(time).padStart(2, "0");
 
-  // Calculate time left, ensuring it stops at 00 when the countdown ends
-  const days =
-    countdownDuration > 0 ? Math.floor(countdownDuration / (24 * 60 * 60)) : 0;
-  const hours =
-    countdownDuration > 0
-      ? Math.floor((countdownDuration % (24 * 60 * 60)) / (60 * 60))
-      : 0;
-  const minutes =
-    countdownDuration > 0
-      ? Math.floor((countdownDuration % (60 * 60)) / 60)
-      : 0;
-  const seconds = countdownDuration > 0 ? countdownDuration % 60 : 0;
+  // // Calculate time left, ensuring it stops at 00 when the countdown ends
+  // const days =
+  //   countdownDuration > 0 ? Math.floor(countdownDuration / (24 * 60 * 60)) : 0;
+  // const hours =
+  //   countdownDuration > 0
+  //     ? Math.floor((countdownDuration % (24 * 60 * 60)) / (60 * 60))
+  //     : 0;
+  // const minutes =
+  //   countdownDuration > 0
+  //     ? Math.floor((countdownDuration % (60 * 60)) / 60)
+  //     : 0;
+  // const seconds = countdownDuration > 0 ? countdownDuration % 60 : 0;
 
-  const formattedDays = formatTime(days);
-  const formattedHours = formatTime(hours);
-  const formattedMinutes = formatTime(minutes);
-  const formattedSeconds = formatTime(seconds);
+  // const formattedDays = formatTime(days);
+  // const formattedHours = formatTime(hours);
+  // const formattedMinutes = formatTime(minutes);
+  // const formattedSeconds = formatTime(seconds);
 
   return (
     <div className={styles.container}>
@@ -155,19 +155,19 @@ export const First = () => {
                 <p>BUY $STARS In PRESALE!</p>
                 <div className={styles.countDown}>
                   <div>
-                    <span>{formattedDays}</span>
+                    <span>00</span>
                     <p className={styles.p}>Days</p>
                   </div>
                   <div>
-                    <span>{formattedHours}</span>
+                    <span>00</span>
                     <p className={styles.p}>Hours</p>
                   </div>
                   <div>
-                    <span>{formattedMinutes}</span>
+                    <span>00</span>
                     <p className={styles.p}> Minutes</p>
                   </div>
                   <div>
-                    <span>{formattedSeconds}</span>
+                    <span>00</span>
                     <p className={styles.p}>Seconds</p>
                   </div>
                 </div>
