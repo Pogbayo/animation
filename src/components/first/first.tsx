@@ -230,9 +230,9 @@ export const First = () => {
               <h3>FEATURED IN</h3>
               <div>
                 <img src="/media/brands/bitcoin.png" alt="coinmarketcap" />
-                <img src="/public/media/brands/coingape.png" alt="coingecko" />
-                <img src="/public/media/brands/crypto-news.svg" alt="kucoin" />
-                <img src="/public/media/brands/tap-bitcoin.png" alt="binance" />
+                <img src="/media/brands/coingape.png" alt="coingecko" />
+                <img src="/media/brands/crypto-news.svg" alt="kucoin" />
+                <img src="/media/brands/tap-bitcoin.png" alt="binance" />
               </div>
             </main>
           </div>
