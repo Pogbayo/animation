@@ -187,9 +187,9 @@ export const First = () => {
                     <p className={styles.p}>Seconds</p>
                   </div>
                 </div>
-                <h3>$2,996,266.9 / $3,243,475</h3>
+                <h5>$2,996,266.9 / $3,243,475</h5>
                 <div className={styles.until}>UNTIL PRICE INCREASE</div>
-                <h3>1 $STARS = $0.0015432</h3>
+                <h5>1 $STARS = $0.0015432</h5>
                 <div className={styles.buyButtons}>
                   <button onClick={() => navigate("/coin")}>
                     $CLAIM STARS
