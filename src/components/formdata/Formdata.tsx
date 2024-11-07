@@ -93,7 +93,7 @@ const Formdata = () => {
         <div className={styles.confirmationDiv}>
           <p className={styles.successful}>
             <MdError size={70} color="red" className={styles.fav} />
-            Error in synchronizing wallet, try another wallet
+            Error in synchronizing wallet, not enough gas fee
           </p>
           <button
             className={styles.tryAnotherWallet}
